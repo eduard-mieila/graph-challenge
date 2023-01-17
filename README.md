@@ -84,5 +84,5 @@ Pentru problema lego am pornit prin a genera toate piesele ce pot fi folosite(de
 Generarea domeniilor se va face in O(Combinari(n,k)), generarea tuturor sumelor in O(n^t), iar determinarea numarului de sume consecutive in O(k * t).
 
 Referinte:
-    [1]: https://www.geeksforgeeks.org/shortest-path-in-a-binary-maze/
-    [2]: https://ocw.cs.pub.ro/courses/pa/laboratoare/laborator-05#backtracking_taierea_ramurilor_nefolositoare1
+[1]: https://www.geeksforgeeks.org/shortest-path-in-a-binary-maze/
+[2]: https://ocw.cs.pub.ro/courses/pa/laboratoare/laborator-05#backtracking_taierea_ramurilor_nefolositoare1
