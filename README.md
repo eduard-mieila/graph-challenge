@@ -83,6 +83,5 @@ Considerand ca toate emailurile sunt unice, complexitatea algoritmului va fi O(n
 Pentru challenge-ul lego am pornit prin a genera toate piesele ce pot fi folosite(de la 1 la k). Apoi am generat toate domeniile pe care le vom verifica, formand toate combinarile de n elemente ce pot fi obtinute din toate piesele disponibile(restrictie: toate domeniile trebuie sa contina 1). Combinarile sunt generate folosind functia  disponibila la linkul [2]. Vom genera apoi toate sumele posibile folosind cel mult T elemente din fiecare domeniu. Pe masura ce sumele sunt generate, vom seta, intr-un vector de tip bool, pe pozitia i daca se poate obtine valoarea i folosind valorile din domeniul curent. La final vom verifica, pentru fiecare domeniu, cate sume sunt consecutive, folosind vectorul de booleeni.
 Generarea domeniilor se va face in O(Combinari(n,k)), generarea tuturor sumelor in O(n^t), iar determinarea numarului de sume consecutive in O(k * t).
 
-Referinte:
 [1]: https://www.geeksforgeeks.org/shortest-path-in-a-binary-maze/
 [2]: https://ocw.cs.pub.ro/courses/pa/laboratoare/laborator-05#backtracking_taierea_ramurilor_nefolositoare1
